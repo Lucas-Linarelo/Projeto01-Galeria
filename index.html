@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1 - Galeria de fotos</title>
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Vertical</h1>
+    </header>
+
+    <main>
+        <div id="image-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <img id="modal-img" src="" alt="Imagem do Modal">
+            </div>
+        </div>
+        <ul>
+            <li>
+                <img src="https://img.freepik.com/free-photo/aerial-view-snow-covered-road-forest-winter-day_181624-55631.jpg?t=st=1723123519~exp=1723127119~hmac=dbafd7252876c32f49f6efe038455a0d2032479e3600195dbf9f5e2124f1d648&w=740" alt=" imagem de IA">
+            </li>
+
+            <li>
+                <img src="https://img.freepik.com/free-photo/aerial-shot-ocean-waves-hitting-small-sandy-island_181624-35044.jpg?t=st=1723123527~exp=1723127127~hmac=3897f0f01bbbf14e75287b023ac37086e1bb6eddf963815a0a2b5fafa711a211&w=740" alt=" imagem de IA">
+            </li>
+
+            <li>
+                <img src="https://img.freepik.com/free-photo/aerial-shot-mountain-landscape-with-dense-forest-river_181624-27384.jpg?t=st=1723123575~exp=1723127175~hmac=2f709fbcc7f7559877a1425b1c58cb89cb8d9ce5ae7d9602e9def344297af6e6&w=740" alt=" imagem de IA">
+            </li>
+
+            <li>
+                <img src="https://img.freepik.com/free-photo/body-water-green-pine-trees_413556-56.jpg?t=st=1723123524~exp=1723127124~hmac=1f265e653cf4832240eee7a60476a3d81fd759ec326b5d61e4505c4ff8819bfb&w=740" alt=" imagem de IA">
+            </li>
+
+            <li>
+                <img src="https://img.freepik.com/free-photo/vertical-high-angle-shot-person-standing-end-walking-road-roys-peak-new-zealand_181624-34406.jpg?t=st=1723123537~exp=1723127137~hmac=8dd596646495f7414ae8b00c5d7e2bdf770e0df9cebb0f4df731afddb4c3f1c9&w=740" alt=" imagem de IA">
+            </li>
+
+            <!-- Versão antiga -->
+            <!-- <li>
+                <img src="https://img.freepik.com/free-photo/vertical-high-angle-shot-person-standing-end-walking-road-roys-peak-new-zealand_181624-34406.jpg?t=st=1723123537~exp=1723127137~hmac=8dd596646495f7414ae8b00c5d7e2bdf770e0df9cebb0f4df731afddb4c3f1c9&w=740" alt=" imagem de IA">
+                <div class="overlay-image-link" >
+                    <a href="https://img.freepik.com/free-photo/vertical-high-angle-shot-person-standing-end-walking-road-roys-peak-new-zealand_181624-34406.jpg?t=st=1723123537~exp=1723127137~hmac=8dd596646495f7414ae8b00c5d7e2bdf770e0df9cebb0f4df731afddb4c3f1c9&w=740" target="_blank">Abrir</a>
+                </div>
+            </li> -->
+
+        </ul>
+
+        <form>
+            <h2>Inserir nova imagem</h2>
+            <input type="url" id="endereco-image-nova" placeholder="URL da imagem"/>
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <button type="button" id="btn-fixo">
+            <p id="add-img">+</p>
+            <p id="rmv-img">-</p>
+        </button>
+    </main>
+    <footer>
+        &copy; Lucas Linarelo - Todos os direitos reservados 2024.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
