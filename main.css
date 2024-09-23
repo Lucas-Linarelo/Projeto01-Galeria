@@ -168,8 +168,10 @@ footer {
     margin-top: auto; /* Garante que o footer fique no pé da pagina */
 }
 
-.modal {
+#image-modal{
     display: none;
+}
+.modal {
     position: fixed;
     z-index: 1000;
     left: 0;
